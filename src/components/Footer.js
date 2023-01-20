@@ -7,19 +7,21 @@ function Footer() {
       <footer class="footer container" id="contacts">
         <ul class="contacts container">
           <li>
-            LinkdIn:
-            <a class="contact-link" href="tel:7205305544">
-              (720) 530-5544
+            <a
+              class="contact-link"
+              href="https://www.linkedin.com/in/ryan-sheridan-998709261/"
+              target="_blank"
+            >
+              <i class="fa-brands fa-linkedin"></i>
             </a>
           </li>
           <li>
-            GitHub:
             <a
               class="contact-link"
               href="https://github.com/rsheridan613"
               target="_blank"
             >
-              rsheridan613
+              <i class="fa-brands fa-github"></i>
             </a>
           </li>
         </ul>

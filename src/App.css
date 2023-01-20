@@ -8,10 +8,11 @@
   --myBlue: #14213d;
   --myCyan: #bfe4db;
   --myYellow: #fca311;
+  font-family: "Lato", sans-serif;
 }
 body {
   background-color: var(--myCyan);
-  font-size: 28px;
+  font-size: 32px;
 }
 
 .container {
@@ -39,7 +40,8 @@ header h1 {
   margin-left: 2rem;
   margin-right: 2rem;
 }
-.links :hover {
+
+.nav-bar :hover {
   color: var(--myYellow);
   cursor: pointer;
 }
@@ -97,9 +99,13 @@ header h1 {
 .footer {
   background-color: var(--myBlue);
   color: var(--myCyan);
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  min-height: 16vh;
+  min-height: 16.1vh;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
 footer h2 {
   min-width: 16vw;
@@ -114,7 +120,8 @@ footer h2 {
 }
 .contact-link {
   color: var(--myCyan);
-  padding-right: 12rem;
+  padding-right: 3rem;
+  font-size: 48px;
 }
 .contacts li :hover {
   color: var(--myYellow);
