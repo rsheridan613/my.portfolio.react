@@ -7,6 +7,7 @@ import Projects from "./components/Projects";
 import ContactMe from "./components/ContactMe";
 import Resume from "./components/Resume";
 import Footer from "./components/Footer";
+import "./App.css";
 
 function App() {
   return (
@@ -23,4 +24,4 @@ function App() {
   );
 }
 
-export default App;
+export default App; 

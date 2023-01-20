@@ -1,0 +1,121 @@
+/* General */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+:root {
+  --myBlue: #14213d;
+  --myCyan: #bfe4db;
+  --myYellow: #fca311;
+}
+body {
+  background-color: var(--myCyan);
+  font-size: 28px;
+}
+
+.container {
+  display: flex;
+}
+
+/* Header */
+.header {
+  background-color: var(--myBlue);
+  color: var(--myCyan);
+  justify-content: space-between;
+  align-items: center;
+  min-height: 16vh;
+}
+header h1 {
+  padding-left: 1rem;
+}
+.links {
+  list-style-type: none;
+  padding-right: 1rem;
+}
+.nav-bar {
+  padding: 0.25rem;
+  border-radius: 10px;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+.links :hover {
+  color: var(--myYellow);
+  cursor: pointer;
+}
+
+/* Body */
+/* Sidebar */
+.sidebar {
+  color: var(--myBlue);
+  padding-left: 2rem;
+  min-width: 16vw;
+  min-height: 68vh;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.sidebar h2 {
+  padding-right: 0.5rem;
+}
+/* About Bulk */
+.about {
+  padding-bottom: 11rem;
+}
+/* Main Content */
+.content {
+  min-width: 84vw;
+  border-top: 3px solid var(--myYellow);
+  border-bottom: 3px solid var(--myYellow);
+  border-left: 3px solid var(--myYellow);
+  flex-wrap: wrap;
+}
+/* About Copy */
+.about-copy {
+  margin: 1rem;
+  border: 3px solid var(--myBlue);
+  border-radius: 25px;
+  max-height: 206px;
+}
+.about-copy img {
+  height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 22px;
+  border-bottom-left-radius: 22px;
+}
+.about-copy p {
+  padding: 1rem;
+}
+/* Project Copy */
+.projects-copy {
+  flex-wrap: wrap;
+}
+.projects-img {
+  max-width: 50%;
+}
+
+/* Footer */
+.footer {
+  background-color: var(--myBlue);
+  color: var(--myCyan);
+  justify-content: space-between;
+  align-items: center;
+  min-height: 16vh;
+}
+footer h2 {
+  min-width: 16vw;
+  padding-left: 1rem;
+}
+.contacts {
+  list-style-type: none;
+  padding-right: 1rem;
+}
+.contacts li {
+  padding-left: 1rem;
+}
+.contact-link {
+  color: var(--myCyan);
+  padding-right: 12rem;
+}
+.contacts li :hover {
+  color: var(--myYellow);
+}
