@@ -1,14 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import selfie from "../images/selfie.jpg";
 
 function AboutMe() {
   return (
     <div>
       <div className="about about-copy container" id="about">
-        <img
-          src="./assets/images/selfie.jpg"
-          alt="My only good picture of myself"
-        />
+        <img src={selfie} alt="My only good picture of myself" />
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste
           delectus accusamus, maxime iure, nam doloribus ad quasi expedita

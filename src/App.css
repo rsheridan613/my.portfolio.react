@@ -8,11 +8,10 @@
   --myBlue: #14213d;
   --myCyan: #bfe4db;
   --myYellow: #fca311;
-  font-family: "Lato", sans-serif;
 }
 body {
   background-color: var(--myCyan);
-  font-size: 32px;
+  font-size: 28px;
 }
 
 .container {
@@ -40,8 +39,7 @@ header h1 {
   margin-left: 2rem;
   margin-right: 2rem;
 }
-
-.nav-bar :hover {
+.links :hover {
   color: var(--myYellow);
   cursor: pointer;
 }
@@ -55,6 +53,8 @@ header h1 {
   min-height: 68vh;
   flex-direction: column;
   align-items: flex-end;
+  border-top: 3px solid var(--myBlue);
+  border-bottom: 3px solid var(--myBlue);
 }
 .sidebar h2 {
   padding-right: 0.5rem;
@@ -65,7 +65,6 @@ header h1 {
 }
 /* Main Content */
 .content {
-  min-width: 84vw;
   border-top: 3px solid var(--myYellow);
   border-bottom: 3px solid var(--myYellow);
   border-left: 3px solid var(--myYellow);
@@ -88,24 +87,25 @@ header h1 {
   padding: 1rem;
 }
 /* Project Copy */
-.projects-copy {
+.project-copy {
   flex-wrap: wrap;
 }
-.projects-img {
-  max-width: 50%;
+.project-img {
+  border: 3px solid var(--myBlue);
+  max-width: 48%;
+  margin-left: 1rem;
+}
+.project-img :hover {
+  border: 3px solid var(--myYellow);
 }
 
 /* Footer */
 .footer {
   background-color: var(--myBlue);
   color: var(--myCyan);
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  min-height: 16.1vh;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
+  min-height: 16vh;
 }
 footer h2 {
   min-width: 16vw;
@@ -120,8 +120,7 @@ footer h2 {
 }
 .contact-link {
   color: var(--myCyan);
-  padding-right: 3rem;
-  font-size: 48px;
+  padding-right: 12rem;
 }
 .contacts li :hover {
   color: var(--myYellow);

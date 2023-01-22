@@ -1,5 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import project1screenshot from "../images/Project_1_Screenshot.png";
+import project2screenshot from "../images/Project_2_Screenshot.png";
 
 function Projects() {
   return (
@@ -12,7 +14,7 @@ function Projects() {
               target="_blank"
             >
               <img
-                src="/images/Project_1_Screenshot.jpg"
+                src={project1screenshot}
                 alt="Screenshot of 'Where ISS It?'"
               />
             </Link>
@@ -23,7 +25,7 @@ function Projects() {
               target="_blank"
             >
               <img
-                src="/images/Project_1_Screenshot.jpg"
+                src={project2screenshot}
                 alt="Screenshot of 'Guardian Guide'"
               />
             </Link>
