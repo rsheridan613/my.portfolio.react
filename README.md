@@ -8,4 +8,4 @@ First draft of a new portfolio site using React components. Parts taken from [ol
 
 ## Screenshot
 
-[Screenshot of portfolio](./assets/screenshot-of-portfolio.png)
+![Screenshot of portfolio](./assets/screenshot-of-portfolio.png)
