@@ -3,16 +3,16 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: "Lato", sans-serif;
 }
 :root {
   --myBlue: #14213d;
   --myCyan: #bfe4db;
   --myYellow: #fca311;
-  font-family: "Lato", sans-serif;
 }
 body {
   background-color: var(--myCyan);
-  font-size: 32px;
+  font-size: 28px;
 }
 
 .container {
@@ -40,37 +40,18 @@ header h1 {
   margin-left: 2rem;
   margin-right: 2rem;
 }
-
-.nav-bar :hover {
+.links :hover {
   color: var(--myYellow);
   cursor: pointer;
 }
 
 /* Body */
-/* Sidebar */
-.sidebar {
-  color: var(--myBlue);
-  padding-left: 2rem;
-  min-width: 16vw;
-  min-height: 68vh;
-  flex-direction: column;
-  align-items: flex-end;
-}
-.sidebar h2 {
-  padding-right: 0.5rem;
-}
+
 /* About Bulk */
 .about {
   padding-bottom: 11rem;
 }
-/* Main Content */
-.content {
-  min-width: 84vw;
-  border-top: 3px solid var(--myYellow);
-  border-bottom: 3px solid var(--myYellow);
-  border-left: 3px solid var(--myYellow);
-  flex-wrap: wrap;
-}
+
 /* About Copy */
 .about-copy {
   margin: 1rem;
@@ -88,11 +69,17 @@ header h1 {
   padding: 1rem;
 }
 /* Project Copy */
-.projects-copy {
+.project-copy {
   flex-wrap: wrap;
+  min-height: calc(100vh + 16vh);
 }
-.projects-img {
-  max-width: 50%;
+.project-img {
+  max-width: 47.5vw;
+  margin: 3vh 1vw 0 1vw;
+  border: 3px solid var(--myBlue);
+}
+.projects a :hover {
+  border: 3px solid var(--myYellow);
 }
 
 /* Footer */
@@ -101,28 +88,25 @@ header h1 {
   color: var(--myCyan);
   justify-content: center;
   align-items: center;
-  min-height: 16.1vh;
+  min-height: 16vh;
   position: fixed;
-  left: 0;
   bottom: 0;
   width: 100%;
-}
-footer h2 {
-  min-width: 16vw;
-  padding-left: 1rem;
+  padding-top: 1vh;
 }
 .contacts {
   list-style-type: none;
-  padding-right: 1rem;
-}
-.contacts li {
-  padding-left: 1rem;
 }
 .contact-link {
   color: var(--myCyan);
-  padding-right: 3rem;
   font-size: 48px;
 }
 .contacts li :hover {
   color: var(--myYellow);
+}
+#linkedin {
+  margin-right: 2rem;
+}
+#github {
+  margin-left: 2rem;
 }

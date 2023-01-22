@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 function NavBar() {
   return (
     <div>
-      <header class="header container">
+      <header className="header container">
         <h1>Ryan Sheridan</h1>
-        <ul class="links container">
+        <ul className="links container">
           <li className="nav-bar" href="#about">
             <Link to="/">About Me</Link>
           </li>
