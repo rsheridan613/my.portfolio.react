@@ -12,7 +12,7 @@
 }
 body {
   background-color: var(--myCyan);
-  font-size: 28px;
+  font-size: 32px;
 }
 
 .container {
@@ -33,6 +33,7 @@ header h1 {
 .links {
   list-style-type: none;
   padding-right: 1rem;
+  color: var(--myCyan);
 }
 .nav-bar {
   padding: 0.25rem;
@@ -40,13 +41,13 @@ header h1 {
   margin-left: 2rem;
   margin-right: 2rem;
 }
-.links :hover {
+
+.nav-bar :hover {
   color: var(--myYellow);
   cursor: pointer;
 }
 
 /* Body */
-
 /* About Bulk */
 .about {
   padding-bottom: 11rem;
@@ -69,14 +70,15 @@ header h1 {
   padding: 1rem;
 }
 /* Project Copy */
-.project-copy {
+.projects-copy {
   flex-wrap: wrap;
-  min-height: calc(100vh + 16vh);
+  min-height: calc(100vh + 19vh);
 }
 .project-img {
-  max-width: 47.5vw;
-  margin: 3vh 1vw 0 1vw;
+  max-width: 57.4rem;
+  margin: 1rem;
   border: 3px solid var(--myBlue);
+  border-radius: 25px;
 }
 .projects a :hover {
   border: 3px solid var(--myYellow);
